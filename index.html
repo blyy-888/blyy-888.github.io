@@ -543,10 +543,10 @@
             </div>
         </section>
         
-<section class="video-section" style="font-family: Arial, sans-serif; max-width: 800px; margin: 2em auto; padding: 2em; text-align: center; background-color: #0b1e4a; border-radius: 12px; color: #fff;">
+<section class="video-section" style="font-family: Arial, sans-serif; max-width: 800px; margin: 2em auto; padding: 2em; background-color: #0b1e4a; border-radius: 12px; color: #fff;">
   
   <!-- 标题 -->
-  <header class="video-header" style="margin-bottom: 1em;">
+  <header class="video-header" style="margin-bottom: 1em; display: inline-block;">
     <h2 class="video-title" style="
         font-weight: 700;
         font-size: 2em;
@@ -561,13 +561,13 @@
   </header>
 
   <!-- 视频链接按钮 -->
-  <div class="video-container" style="margin: 2em 0; display: flex; justify-content: center;">
+  <div class="video-container" style="margin: 2em 0; display: inline-block;">
     <a href="https://www.douyin.com/video/7566837704759989466" 
        target="_blank" 
        rel="noopener noreferrer"
        style="
          display: block;
-         width: 320px;
+         width: 100%;   /* 按钮宽度跟父容器一致，也就是跟标题一样宽 */
          padding: 0.8em 1em;
          font-size: 1.1em;
          color: #0b1e4a;
@@ -585,7 +585,7 @@
   </div>
 
   <!-- 视频说明 -->
-  <footer class="video-info" style="font-size: 1em; color: #e0e0e0; text-align: center;">
+  <footer class="video-info" style="font-size: 1em; color: #e0e0e0; margin-top: 1.5em;">
     <p><i class="fas fa-info-circle" aria-hidden="true"></i> 本视频介绍了对比剂的正确使用方法、注意事项及不良反应的识别与处理</p>
   </footer>
 
