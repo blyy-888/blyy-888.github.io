@@ -543,30 +543,30 @@
             </div>
         </section>
         
-        <section class="video-section">
-            <h2><i class="fas fa-video"></i> 对比剂科普小视频</h2>
-            <p>了解对比剂相关知识，提高用药安全意识</p>
-            
-            <div class="video-container">
-                <div class="video-wrapper">
-                    <!-- 抖音视频嵌入 -->
-                    <iframe 
-                        class="video-iframe"
-                        src="https://www.douyin.com/embed/7566837704759989466" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                    </iframe>
-                    
-                    <!-- 备用内容，如果嵌入失败时显示 -->
-                    <div class="video-fallback" id="videoFallback">
-                        <i class="fab fa-tiktok"></i>
-                        <h3>对比剂安全使用科普视频</h3>
-                        <p>视频加载中，请稍候...</p>
-                        <p>如果视频无法播放，请<a href="https://www.douyin.com/video/7566837704759989466" target="_blank" style="color: #fff; text-decoration: underline;">点击这里前往抖音观看</a></p>
-                    </div>
-                </div>
-            </div>
+ <section class="video-section">
+    <h2><i class="fas fa-video"></i> 对比剂科普小视频</h2>
+    <p>了解对比剂相关知识，提高用药安全意识</p>
+    
+    <div class="video-container">
+        <div class="video-wrapper">
+            <!-- 本地视频播放 -->
+            <video 
+                class="video-player"
+                controls
+                preload="metadata"
+                width="800"
+                style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+                <source src="video/intro.mp4" type="video/mp4">
+                您的浏览器不支持 HTML5 视频播放。
+            </video>
+        </div>
+    </div>
+
+    <div class="video-info">
+        <p><i class="fas fa-info-circle"></i> 本视频介绍了对比剂的正确使用方法、注意事项及不良反应的识别与处理。</p>
+    </div>
+</section>
+
             
             <div class="video-info">
                 <p><i class="fas fa-info-circle"></i> 本视频介绍了对比剂的正确使用方法、注意事项及不良反应的识别与处理</p>
