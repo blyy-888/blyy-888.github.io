@@ -289,17 +289,23 @@
     <p>了解对比剂相关知识，提高用药安全意识</p>
     
     <div style="text-align: center; margin: 30px auto; max-width: 800px;">
-        <!-- 视频播放器 - 使用相对路径 -->
-        <video controls width="100%" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); background: #000;">
-            <source src="video.mp4" type="video/mp4">
-            您的浏览器不支持HTML5视频播放。
-        </video>
+        <!-- Vimeo视频嵌入 -->
+        <iframe 
+            src="https://player.vimeo.com/video/1135966468?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            width="100%" 
+            height="495"
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
+            title="对比剂科普小视频">
+        </iframe>
         
-        <div style="margin-top: 15px; color: #666; font-size: 14px;">
-            <p>如果视频无法播放，GitHub可能还在处理文件，请稍后刷新页面重试</p>
+        <!-- 备用链接 -->
+        <div style="margin-top: 15px;">
             <a href="https://www.douyin.com/video/7566837704759989466" target="_blank" 
-               style="color: #1a6fb0; text-decoration: none; display: inline-flex; align-items: center; gap: 5px; margin-top: 10px;">
-                <i class="fas fa-external-link-alt"></i> 临时使用备用链接观看
+               style="color: #1a6fb0; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+                <i class="fas fa-external-link-alt"></i> 备用链接
             </a>
         </div>
     </div>
