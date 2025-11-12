@@ -545,38 +545,50 @@
         
 <section class="video-section" style="font-family: Arial, sans-serif; max-width: 800px; margin: 2em auto; padding: 2em; background-color: #0b1e4a; border-radius: 12px; color: #fff;">
   
+  <section class="video-section" style="
+    background: linear-gradient(135deg, #f0f6ff, #d9e7ff);
+    padding: 2.5em 1.5em;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    text-align: center;
+">
+
   <!-- 标题 -->
-  <header class="video-header" style="margin-bottom: 1em; display: inline-block;">
+  <header class="video-header" style="margin-bottom: 1.5em;">
     <h2 class="video-title" style="
         font-weight: 700;
         font-size: 2em;
-        color: #ffcc00;
-        display: inline-block;
-        ">
-      <i class="fas fa-video" aria-hidden="true"></i> 对比剂科普小视频
+        color: #003366;
+        margin: 0;
+    ">
+      <i class="fas fa-video" aria-hidden="true" style="color: #ffb400;"></i> 对比剂科普小视频
     </h2>
-    <p style="margin-top: 0.5em; font-size: 1.2em; font-weight: 500; color: #ffffff;">
+    <p style="
+        margin-top: 0.6em;
+        font-size: 1.2em;
+        font-weight: 500;
+        color: #1a1a1a;
+    ">
       了解对比剂相关知识，提高用药安全意识
     </p>
   </header>
 
   <!-- 视频链接按钮 -->
-  <div class="video-container" style="margin: 2em 0; display: inline-block;">
+  <div class="video-container" style="margin: 2em 0;">
     <a href="https://www.douyin.com/video/7566837704759989466" 
        target="_blank" 
        rel="noopener noreferrer"
        style="
-         display: block;
-         width: 100%;   /* 按钮宽度跟父容器一致，也就是跟标题一样宽 */
-         padding: 0.8em 1em;
+         display: inline-block;
+         padding: 0.9em 2.2em;
          font-size: 1.1em;
-         color: #0b1e4a;
+         color: #003366;
          background: #ffcc00;
-         border-radius: 8px;
+         border-radius: 10px;
          text-decoration: none;
-         text-align: center;
          font-weight: 600;
-         transition: background 0.3s;
+         transition: all 0.3s ease;
+         box-shadow: 0 3px 8px rgba(0,0,0,0.15);
        "
        onmouseover="this.style.background='#e6b800'"
        onmouseout="this.style.background='#ffcc00'">
@@ -585,8 +597,16 @@
   </div>
 
   <!-- 视频说明 -->
-  <footer class="video-info" style="font-size: 1em; color: #e0e0e0; margin-top: 1.5em;">
-    <p><i class="fas fa-info-circle" aria-hidden="true"></i> 本视频介绍了对比剂的正确使用方法、注意事项及不良反应的识别与处理</p>
+  <footer class="video-info" style="
+      font-size: 1em;
+      color: #333;
+      margin-top: 1.5em;
+      line-height: 1.6;
+  ">
+    <p>
+      <i class="fas fa-info-circle" aria-hidden="true" style="color:#003366;"></i>
+      本视频介绍了对比剂的正确使用方法、注意事项及不良反应的识别与处理
+    </p>
   </footer>
 
 </section>
